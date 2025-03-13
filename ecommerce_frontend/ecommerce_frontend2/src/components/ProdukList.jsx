@@ -1,25 +1,31 @@
 import React, { useEffect, useState } from 'react';
+import axios from 'axios';
 
 function ProdukList() {
     const [produk, setProduk] = useState([]);
 
     useEffect(() => {
-        setProduk([
-            { id: 1, nama: 'Produk A' },
-            { id: 2, nama: 'Produk B' },
-        ]);
+        axios.get('http://localhost:3001/produk')
+        .then((response) => {
+            setProduk(response.data);
+        })
+        .catch((error) => {
+            console.error('Terjadi error:', error);
+        });
     }, []);
 
     return (
-    <div>
-        <h2>Daftar Produk</h2>
-        <ul>
+        <div>
+          <h2>Daftar Produk (From Database)</h2>
+          <ul>
             {produk.map((item) => (
-                <li key={item.id}>{item.nama}</li>
+              <li key={item.id}>
+                {item.nama} - Rp{item.harga}
+              </li>
             ))}
-        </ul>
-    </div>
-    );
-}
-
+          </ul>
+        </div>
+      );
+    }
+    
 export default ProdukList;
