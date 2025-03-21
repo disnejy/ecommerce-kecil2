@@ -1,0 +1,47 @@
+/* TambahProduk.css */
+.tambah-produk-container {
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #333;
+    border-radius: 8px;
+  }
+  
+  .tambah-produk-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: white; /* Warna judul menjadi putih */
+  }
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .submit-btn {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .error-message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  

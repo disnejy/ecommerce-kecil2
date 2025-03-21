@@ -1,0 +1,94 @@
+/* ProdukList.css */
+.produk-list-container {
+    margin: 20px;
+    padding: 10px;
+  }
+  
+  .produk-list-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .produk-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .produk-item {
+    background-color: #333;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .produk-name {
+    font-weight: bold;
+  }
+  
+  .produk-price {
+    font-size: 16px;
+    color: #4CAF50;
+  }
+  
+  .produk-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .edit-btn, .delete-btn {
+    padding: 8px 12px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .edit-btn {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .edit-form-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #444;
+    border-radius: 8px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
+  
+  .form-input {
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .save-btn, .cancel-btn {
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .save-btn {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .cancel-btn {
+    background-color: #f44336;
+    color: white;
+    margin-left: 10px;
+  }
+  
