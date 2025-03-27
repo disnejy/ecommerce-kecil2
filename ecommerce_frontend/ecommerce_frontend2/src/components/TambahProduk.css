@@ -1,47 +1,144 @@
-/* TambahProduk.css */
+/* TambahProduk.css
+.box-shadow {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.text-purple {
+  color: #6f42c1;
+}
+
+.btn-primary {
+  background-color: #d63384;
+  border-color: #d63384;
+}
+
+.btn-primary:hover {
+  background-color: #c1357d;
+}
+
+.alert-success {
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  color: #155724;
+}
+
+.alert-danger {
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  color: #721c24;
+}
+
+.form-control {
+  border-radius: 0.375rem;
+}
+
+.container {
+  max-width: 800px;
+}
+
+.form-group label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.form-input {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.375rem;
+  border: 1px solid #ced4da;
+}
+
 .tambah-produk-container {
-    width: 50%;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #333;
-    border-radius: 8px;
-  }
-  
-  .tambah-produk-container h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: white; /* Warna judul menjadi putih */
-  }
-  
-  .form-container {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .form-group {
-    margin-bottom: 15px;
-  }
-  
-  .form-input {
-    padding: 10px;
-    width: 100%;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .submit-btn {
-    padding: 10px 20px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-  
-  .error-message {
-    color: red;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 10px;
-  }
-  
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.notification {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 9999;
+  width: 300px;
+} */
+
+
+
+
+
+/* TambahProduk.css */
+.container-fullscreen {
+  height: 100vh; /* Membuat kontainer setinggi layar */
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Menempatkan konten di tengah */
+}
+
+.box-shadow {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.text-purple {
+  color: #6f42c1;
+}
+
+.btn-primary {
+  background-color: #d63384;
+  border-color: #d63384;
+}
+
+.btn-primary:hover {
+  background-color: #c1357d;
+}
+
+.alert-success {
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+  color: #155724;
+}
+
+.alert-danger {
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+  color: #721c24;
+}
+
+.form-control {
+  border-radius: 0.375rem;
+}
+
+.container {
+  max-width: 800px;
+}
+
+.form-group label {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.form-input {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.375rem;
+  border: 1px solid #ced4da;
+}
+
+.tambah-produk-container {
+  background-color: #f9f9f9;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.notification {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 9999;
+  width: 300px;
+}

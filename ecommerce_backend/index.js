@@ -4,6 +4,8 @@ const pool = require('./db');
 const app = express();
 const PORT = 3001;
 
+app.use(express.static('public'));
+
 app.use(cors());
 app.use(express.json());
 
